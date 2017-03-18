@@ -30,7 +30,6 @@ def calculate(arg):
 	return stack.pop()
 
 
-
 def main():
 	while True:
 		result = calculate(input('rpn calc> '))
