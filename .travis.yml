@@ -3,4 +3,8 @@ python:
   - "3.5"
 
 # command to run tests
-script: make 
+script: 
+  make
+  coverage run rpn.py test_run
+after_success:
+  coveralls
