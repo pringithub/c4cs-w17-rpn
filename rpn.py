@@ -1,4 +1,6 @@
 #!/usr/bin/python
+import readline
+import numpy as np
 
 import operator
 OPERATORS = {
@@ -6,7 +8,8 @@ OPERATORS = {
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
-	'^': operator.pow
+	'^': operator.pow,
+	'.': np.dot 
 }
 
 
